@@ -1,6 +1,7 @@
 .body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 0 50px 0 50px;
@@ -11,7 +12,7 @@
 .header {
     background-color: #1f2937;
     color: white;
-    padding: 10px 100px 50px 100px;
+    padding: 10px 100px 0 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,12 +21,16 @@
 }
 
 .logo {
-    font: 24px #f9faf8;
-    font-weight: 600;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+    
+    
 }
 
 .links {
-    font: 18px #e5e7eb;
+    font-size: 18px;
+    
 }
 
 ul {
@@ -38,25 +43,73 @@ ul {
 }
 
 li {    
-    font-size: 14px;
+    
+    
 }
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-.p-one-1 {
-    font: 48px extra-bold #f9faf8;
-}
-
-.p-one-2 {
-    font: 18px #e5e7eb;
+    color: white;    
 }
 
 .one    {
-    background-color: #1f2937; 
+    background-color: #1f2937;     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* min-height: 300px; */
+    padding: 50px 100px;
+    
 }
+
+.left {
+    background-color: #1f2937; 
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    width: 50%;
+    /* flex: 1 1 400px; */
+}
+
+.p-one-1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.p-one-2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1 {
+    background-color: #388ff6;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right {
+    background-color: #1f2937; 
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 50%;
+}
+
+.right img {
+width: 100%;
+};
+    
+    
+
+
+
 
 .two   {
     background-color: white;
@@ -79,9 +132,7 @@ a {
     background-color: #1f2937; 
 }
 
-.button1 {
-    background-color: #388ff6;
-}
+
 
 .button2 {
 
