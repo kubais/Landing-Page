@@ -1,0 +1,76 @@
+.body {
+    font-family: roboto, serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font: 18px #e5e7eb;
+}
+
+.links {
+    font: 24px #f9faf8;
+}
+
+.p-one-1 {
+    font: 48px extra-bold #f9faf8;
+}
+
+.p-one-2 {
+    font: 18px #e5e7eb;
+}
+
+.one    {
+    background-color: #1f2937; 
+}
+
+.two   {
+    background-color: white;
+    
+}
+
+.p-two-1 {
+    font: 36px extra-bold #1f2937;
+}
+
+.three {
+    background-color: #e5e7eb;
+}
+
+.p-three-1 {
+    font: 36px light italic #1f2937;
+}
+
+.footer {
+    background-color: #1f2937; 
+}
+
+.button1 {
+    background-color: #388ff6;
+}
+
+.button2 {
+
+}
+
+.banner {
+    background-color: #388ff6;
+}
+
+
+
