@@ -103,21 +103,34 @@ a {
 }
 
 .right img {
-width: 100%;
-};
-    
-    
+    width: 100%;
+}
 
-
-
-
-.two   {
+.two {
     background-color: white;
-    
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .p-two-1 {
-    font: 36px extra-bold #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    gap: 30px;
+    }
+
+.cards-container img {
+    width: 100%;
 }
 
 .three {
