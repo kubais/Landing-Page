@@ -163,25 +163,78 @@ a {
 
 .p-three-2 {
     text-align: right;
-    
     margin: 0;
     padding: 0;
     font-weight: 600;
 }
 
-.footer {
-    background-color: #1f2937; 
-}
-
-
-
-.button2 {
-
+.four {
+    padding: 50px 100px;
+    background-color: white;
+    
 }
 
 .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: #388ff6; 
+    border: 3px solid white;
+    border-radius: 10px; 
+    padding: 30px 100px;
+    color: white;
+
+}
+
+.button2 {
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
     background-color: #388ff6;
 }
+
+.four .left {
+    
+    flex: 1;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #388ff6; 
+}
+
+.p-four-1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.p-four-2 {
+    padding: 0;
+    margin: 0;
+}
+
+.four .right {
+    flex: 1;
+    width: 30%;
+    background-color: #388ff6; 
+    justify-content: right;
+
+}
+
+.footer {
+    background-color: #1f2937; 
+
+}
+
+
+
+
 
 
 
