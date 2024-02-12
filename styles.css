@@ -4,7 +4,17 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0 50px 0 50px;
+    padding: 0 250px 0 250px;
+    margin: 0;
+
+}
+
+.all {
+    max-width: 1300px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
 }
 
@@ -17,6 +27,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex: 1;
 
 }
 
@@ -52,8 +63,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* min-height: 300px; */
     padding: 50px 100px;
+    flex: 1;
+    gap: 40px;
     
 }
 
@@ -61,9 +73,9 @@ a {
     background-color: #1f2937; 
     display: flex;
     flex-direction: column;
-    padding-right: 40px;
+    flex: 1;
     width: 50%;
-    /* flex: 1 1 400px; */
+    
 }
 
 .p-one-1 {
@@ -92,33 +104,39 @@ a {
 }
 
 .right {
-    background-color: #1f2937; 
     display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: flex-end;
+    background-color: #1f2937; 
+    align-self: center;
+    justify-content: right;
+    flex: 1; 
     width: 50%;
+       
 }
 
 .right img {
-    max-width: 300px;
-    border: 3px;
-    border-radius: 10px;
+    max-width: 380px;
+    min-width: 250px;
+    aspect-ratio: 6/3;
+    border: 0;
+    border-radius: 10px; 
 }
 
 .two {
     background-color: white;
-    padding: 10px 70px 50px 70px;
+    padding: 50px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .p-two-1 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+    margin-top: 0;
+    padding-top: 0;
    
 }
 
@@ -135,13 +153,14 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 150px;
+    
 }
 
 .cards-container img {
     width: 100%;
     /* max-width: 150px; */
     border: 5px, solid #388ff6;
-    border-radius: 5px;
+    border-radius: 10px;
     aspect-ratio: 1/1;
 }
 
@@ -153,15 +172,18 @@ a {
 }
 
 .three {
+    display: flex;
     background-color: #e5e7eb;
-    padding: 50px 70px;
+    padding: 50px 170px;
+    flex: 1;
+    flex-direction: column;
 }
 
 .p-three-1 {    
     font-style: italic;
     font-weight: 100;
     font-size: 30px;
-    color: #1f2937;  
+    color: #444649;  
     margin: 0;
     padding: 0;  
     text-align: justify;
@@ -175,20 +197,25 @@ a {
 }
 
 .four {
-    padding: 50px 70px;
+    padding: 50px 100px;
     background-color: white;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .banner {
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: space-between; 
+    align-items: center;
     background-color: #388ff6; 
     border: 3px solid white;
     border-radius: 10px; 
-    padding: 30px 100px;
+    padding: 30px 90px;
     color: white;
 
 }
@@ -206,8 +233,7 @@ a {
 
 .four .left {
     
-    flex: 1;
-    width: 70%;
+    flex: 1 1 80%;
     flex-direction: column;
     justify-content: center;
     align-items: left;
@@ -228,7 +254,6 @@ a {
 
 .four .right {
     flex: 1;
-    width: 30%;
     background-color: #388ff6; 
     justify-content: right;
 
