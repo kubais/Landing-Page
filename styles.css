@@ -42,11 +42,6 @@ ul {
     gap: 20px;
 }
 
-li {    
-    
-    
-}
-
 a {
     text-decoration: none;
     color: white;    
@@ -56,7 +51,7 @@ a {
     background-color: #1f2937;     
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     /* min-height: 300px; */
     padding: 50px 100px;
     
@@ -77,6 +72,8 @@ a {
     color: #f9faf8;
     padding: 0;
     margin: 0;
+    line-height: 90%;
+    
 }
 
 .p-one-2 {
@@ -99,43 +96,52 @@ a {
     display: flex;
     flex: 1;
     align-items: center;
+    justify-content: flex-end;
     width: 50%;
 }
 
 .right img {
-    width: 100%;
+    max-width: 300px;
     border: 3px;
     border-radius: 10px;
-    border-color: #388ff6;
 }
 
 .two {
     background-color: white;
-    padding: 10px 100px 50px 100px;
+    padding: 10px 70px 50px 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .p-two-1 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+   
 }
 
 .cards-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex: 1;
-    gap: 30px;
+    gap: 50px;
     }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
 
 .cards-container img {
     width: 100%;
+    /* max-width: 150px; */
     border: 5px, solid #388ff6;
-    border-radius: 10px;
+    border-radius: 5px;
     aspect-ratio: 1/1;
 }
 
@@ -148,7 +154,7 @@ a {
 
 .three {
     background-color: #e5e7eb;
-    padding: 50px 100px;
+    padding: 50px 70px;
 }
 
 .p-three-1 {    
@@ -169,8 +175,9 @@ a {
 }
 
 .four {
-    padding: 50px 100px;
+    padding: 50px 70px;
     background-color: white;
+    flex: 1;
     
 }
 
@@ -235,6 +242,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 
 }
 
