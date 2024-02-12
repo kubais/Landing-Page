@@ -104,6 +104,9 @@ a {
 
 .right img {
     width: 100%;
+    border: 3px;
+    border-radius: 10px;
+    border-color: #388ff6;
 }
 
 .two {
@@ -131,6 +134,16 @@ a {
 
 .cards-container img {
     width: 100%;
+    border: 5px, solid #388ff6;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+}
+
+.cards-container p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #5d5f64;
+    text-align: center;
 }
 
 .three {
@@ -138,7 +151,8 @@ a {
 }
 
 .p-three-1 {
-    font: 36px light italic #1f2937;
+    font: light italic 36px;
+    color: #1f2937;
 }
 
 .footer {
