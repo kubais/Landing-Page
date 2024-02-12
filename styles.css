@@ -1,7 +1,7 @@
 .body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 0 50px 0 50px;
@@ -229,6 +229,12 @@ a {
 
 .footer {
     background-color: #1f2937; 
+    color: white;
+    font-size: 12px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
