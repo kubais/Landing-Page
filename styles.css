@@ -169,7 +169,7 @@ a {
 .cards-container img {
     width: 100%;
     /* max-width: 150px; */
-    border: 5px, solid #388ff6;
+    border: 5px solid #388ff6;
     border-radius: 10px;
     aspect-ratio: 1/1;
 }
